@@ -5,7 +5,8 @@ title: Example
 
 # Example project
 
-- [About the project](about)
+- [A propos de moi](about)
+- [Projets](projects)
 - [Publications](publications)
 
 # News
