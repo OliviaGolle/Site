@@ -7,7 +7,6 @@ title: Example
 
 - [About the project](about)
 - [Publications](publications)
-- [Team](team)
 
 # News
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: A propos de moi
 ---
 
-Brief text about the project ...
+Me, Myself and I ...
