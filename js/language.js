@@ -33,7 +33,7 @@ languageContainer.events.on("maxsizechanged", function () {
 })
 
 var langChart = languageContainer.createChild(am4charts.PieChart);
-langChart .fontSize = 11;
+langChart.fontSize = 11;
 langChart.hiddenState.properties.opacity = 0.5; // this makes initial fade in effect
 langChart.data = data;
 langChart.radius = am4core.percent(90);
@@ -43,13 +43,16 @@ langChart.zIndex = 2;
 var series1 = langChart.series.push(new am4charts.PieSeries());
 series1.dataFields.value = "quantite";
 series1.dataFields.category = "language";
-series1.slices.template.tooltipText = "{category}: {framework}"
+series1.slices.template.tooltipText = "Versions: {framework}"
 series1.colors.step = 2;
 series1.alignLabels = false;
 series1.labels.template.bent = true;
-series1.labels.template.radius = 3;
+series1.ticks.template.disabled = true;
+series1.labels.template.text = "{category}";
+series1.labels.template.radius = am4core.percent(-25);
+series1.labels.template.fill = am4core.color("white");
 series1.labels.template.padding(0,0,0,0);
 
 var zIndex = 5;
 
-}); // end am4core.ready()
+}); 
