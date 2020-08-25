@@ -5,7 +5,7 @@ am4core.useTheme(am4themes_frozen);
 // Themes end
 
 var data = [{
-    "language": "Javascript",
+    "language": "Java",
     "quantite": 60,
 	"framework":"\n Java 7 \n AngularJs \n"
 }, {
