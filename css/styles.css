@@ -64,7 +64,8 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  /**color: #212529;**/
+  color: #FFFFFF;
   text-align: left;
   background-color: #fff;
 }
@@ -10422,12 +10423,13 @@ header.masthead .masthead-heading {
   width: 70%;
   height: 280px;
 }
-/**section#competences {
+section#competences {
   background-color: #212529;
-  background-image: url("../assets/img/black-abstract-texture-waves-texture-black-background-with-waves-noise-texture-3d-waves-texture.jpg");
+  background-image: url("../assets/img/fondCompetences.png");
   background-repeat: no-repeat;
   background-position: center;
-}*/
+  background-size: cover;
+}
 section#contact {
   background-color: #212529;
   background-image: url("../assets/img/map-image.png");
