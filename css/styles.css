@@ -10429,7 +10429,12 @@ section#competences {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+/**  animation:fondCompetences_anim 75s linear infinite;**/
 }
+/**@keyframes fondCompetences_anim{
+		0%{background-position: 0 0;}
+		100%{background-position:-2122px 0;}
+}**/	
 section#contact {
   background-color: #212529;
   background-image: url("../assets/img/map-image.png");
