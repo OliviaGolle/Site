@@ -10425,7 +10425,7 @@ header.masthead .masthead-heading {
 }
 section#competences {
   background-color: #212529;
-  background-image: url("../assets/img/fondCompetences.png");
+  /**background-image: url("../assets/img/fondCompetences.png");**/
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
