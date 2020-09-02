@@ -1,7 +1,7 @@
 am4core.ready(function() {
 
 // Themes begin
-am4core.useTheme(am4themes_frozen);
+am4core.useTheme(am4themes_dataviz);
 // Themes end
 
 var data = [{
